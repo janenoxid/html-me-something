@@ -24,6 +24,77 @@
                 <img class="big-image" src="images/DDixon_WorkingFromHome.jpg">
             </article>
 
+            <article>
+                <h3>Stimulus Check</h3>
+                <img src="images/swimming.gif">
+            </article>
+
+            <article>
+                <h3>Making Masks</h3>
+                <details>
+                    <summary>I made some masks...</summary>
+                    <div id="sad-news-outline">
+                        <p id="sad-news">My parents don't <strong>always want to wear them :-(</strong></p>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                <h3>Things I'd Like to Learn More About...</h3>
+                <nav>
+                    <a href="https://www.w3schools.com/tags/ref_canvas.asp">Canvas</a> | 
+                    <a href="https://www.w3schools.com/tags/tag_map.asp">Image mapping</a> | 
+                    <a href="https://www.w3schools.com/tags/ref_standardattributes.asp">HTML Global Attributes</a> | 
+                    <a href="https://www.w3schools.com/tags/tag_picture.asp">Changing Pictures</a> | 
+                    <a href="https://www.w3schools.com/tags/tag_progress.asp">Progress Element Looks Kind of Cool, Too.</a> | 
+                    <a href="https://www.w3schools.com/tags/tag_source.asp">Audio and Video Player</a> | 
+                    <a href="https://www.w3schools.com/tags/tag_svg.asp">Coding SVG</a> <br />
+                    <a href="https://www.w3schools.com/tags/default.asp">There may be even more!</a>
+                </nav>
+                <ul>
+                    <li>
+                        <div class="canvas">
+                            <canvas id="myCanvas">
+                                Your browser does not support the canvas tag.
+                                </canvas>
+                                
+                                <script>
+                                var c = document.getElementById("myCanvas");
+                                var ctx = c.getContext("2d");
+                                ctx.fillStyle = "red";
+                                ctx.fillRect(100, 40, 10, 100);
+                                
+                                //Turn transparency on
+                                ctx.globalAlpha = 0.2;
+                                ctx.fillStyle = "blue"; 
+                                ctx.fillRect(50, 50, 75, 50); 
+                                ctx.fillStyle = "green"; 
+                                ctx.fillRect(80, 80, 75, 50);
+                                ctx.fillStyle = "purple";
+                                ctx.fillRect(100, 20, 300, 20)
+                                </script>
+                                <p>Oh my goodness! I can't wait to play with <a href = "https://www.w3schools.com/tags/ref_canvas.asp">HTML Canvas</a> more!
+                                <br /> At some point, maybe I'll check out this <a href="https://www.w3schools.com/graphics/canvas_intro.asp">Tutorial</a>...</p>
+                
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="image-mapping">
+                            <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap">Image mapping</a><br>
+                            Um, yes, I want people to be able to go to different things based on what part of an image they click!
+                            <br /> <a href="https://www.w3schools.com/tags/tag_map.asp">More information here...</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="global-attributes">
+                            <p><a href="https://www.w3schools.com/tags/ref_standardattributes.asp">HTML Global Attributes</a>. Like... what is this "draggable" business anyways? Yum!</p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+            
+            
         </main>
 
     <footer>

@@ -4,6 +4,11 @@ h1 {
   margin: 15px;
 }
 
+h3 {
+  color: darkslategray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
   background-color: sandybrown;
   max-width: 800px;
@@ -11,6 +16,72 @@ header {
   margin: 15px;
   border: 5px;
   border-style: dotted;
+}
+
+ul {
+  list-style-type: none;
+}
+
+canvas {
+  background-color: lightgray;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  margin: 20px;
+  padding: 10px;
+  line-height: 20px;
+}
+
+details {
+  margin: 10px;
+  padding: 20px;
+}
+
+summary {
+  margin: 10px;
+  padding: 10px;
+}
+
+#sad-news {
+  margin-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  padding-left: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(254, 255, 215);
+  background-color: crimson;
+  max-width: 700px;
+  border-radius: 40px;
+}
+
+#sad-news-outline {
+  background-color: brown;
+  padding: 10px;
+  max-width: 700px;
+  border-radius: 40px;
+}
+
+.canvas {
+  background-color: rgb(216, 225, 226);
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.image-mapping {
+  background-color: rgb(216, 225, 226);
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.global-attributes {
+  background-color: rgb(216, 225, 226);
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px;
 }
 
 footer {
