@@ -1,21 +1,35 @@
 h1 {
-  color: salmon;
+  color: rgb(141, 59, 49);
   font-family: "Courier New", Courier, monospace;
   margin: 15px;
 }
 
 h3 {
-  color: darkslategray;
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(16, 53, 53);
+  font-weight: bold;
+  background-color: lavender;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 50px auto 20px auto;
+  max-width: 700px;
+  text-align: center;
+  border: 4px;
+  border-style: double;
 }
 
 header {
-  background-color: sandybrown;
+  background-color: rgb(233, 225, 218);
   max-width: 800px;
   padding: 20px;
-  margin: 15px;
+  margin: 20px auto 70px auto;
   border: 5px;
-  border-style: dotted;
+  border-style: double;
+}
+
+.subtitle {
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px 10px 10px 20px;
 }
 
 ul {
@@ -24,19 +38,71 @@ ul {
 
 canvas {
   background-color: lightgray;
+  border-radius: 20px;
 }
 
-nav {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  margin: 20px;
-  padding: 10px;
-  line-height: 20px;
+hr {
+  margin-top: 30px;
+}
+
+.more-info {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  background-color: rgb(230, 235, 234);
+  padding: 30px;
+  border-radius: 20px;
+  margin: 15px auto;
+  border: 4px;
+  border-style: double;
+}
+
+.work-from-home {
+  background-color: lightsteelblue;
+  margin: 15px auto;
+  padding: 1%;
+  max-width: 850px;
+  border-radius: 10px;
+}
+
+.intro-paragraph {
+  color: rgb(15, 12, 56);
+  background-color: rgb(225, 230, 223);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  max-width: 800px;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 9px;
+  border: 4px;
+  border-style: double;
+  line-height: 25px;
+}
+
+.stimulus {
+  padding: 1%;
+  margin: 15px auto;
+  background-color: rgb(205, 209, 200);
+  max-width: 850px;
+  border-radius: 20px;
+  border: 4px;
+  border-style: double;
+}
+
+.masks {
+  background-color: rgb(221, 231, 241);
+  padding: 1%;
+  margin: 15px auto;
+  max-width: 850px;
+  border-radius: 20px;
 }
 
 details {
   margin: 10px;
   padding: 20px;
+  max-width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 4px;
+  border-style: double;
 }
 
 summary {
@@ -63,18 +129,25 @@ summary {
   border-radius: 40px;
 }
 
-.canvas {
-  background-color: rgb(216, 225, 226);
-  max-width: 800px;
-  padding: 20px;
-  margin: 20px;
+.learn {
+  background-color: lightblue;
+  max-width: 850px;
+  margin: 15px auto;
+  border-radius: 20px;
+  padding: 1%;
 }
 
-.image-mapping {
-  background-color: rgb(216, 225, 226);
-  max-width: 800px;
-  padding: 20px;
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
   margin: 20px;
+  padding: 10px;
+  line-height: 20px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .global-attributes {
@@ -82,36 +155,23 @@ summary {
   max-width: 800px;
   padding: 20px;
   margin: 20px;
+  border-radius: 20px;
 }
 
-footer {
-  margin-top: 50px;
-  margin-right: 10px;
-  font-size: 10px;
-  text-align: right;
+.canvas {
+  background-color: rgb(216, 225, 226);
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
-.subtitle {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.work-from-home {
-  background-color: lightsteelblue;
-  margin: 15px;
-  padding: 1%;
-  max-width: 90%;
-  border-radius: 10px;
-}
-
-.intro-paragraph {
-  color: rgb(120, 120, 200);
-  font-family: Arial, Helvetica, sans-serif;
-  max-width: 1000px;
-  padding: 10px;
-  margin: 15px;
-  border: 5px;
-  border-style: ridge;
-  border-radius: 9px;
+.image-mapping {
+  background-color: rgb(216, 225, 226);
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
 .big-image {
@@ -120,4 +180,28 @@ footer {
   border: 5px;
   border-style: double;
   border-color: #2c343c;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-mid {
+  max-width: 400px;
+  max-height: 350px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.image-mid-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+  margin-top: 50px;
+  margin-right: 10px;
+  font-size: 10px;
+  text-align: right;
 }
